@@ -1,0 +1,42 @@
+```gitignore
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local databases and model files
+*.db
+*.sqlite3
+*.gguf
+
+# Local project data
+data/
+qdrant_storage/
+ollama_data/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+```
